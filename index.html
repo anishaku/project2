@@ -1,993 +1,540 @@
 <html>
-
 	<head>
-
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
-
 		<style type="text/css">
-
 			body{
-
 			
-
 			}
-
+			/*#rarea{
+				width:80px;
+				height:50px;
+				background:black;
+				position:fixed;
+				left:0;
+				top:50px;
+				z-index:1000px;
+			}*/
 			.contentarea{
-
 				width:1200px;
-
 				margin:0 auto;
-
 			}
-
 			#mainarea{
-
 				width:100%;
-
 				height:5000px;;
-
 				background:#f7f7f7;
-
 			}
-
 			#toparea{
-
 				width:100%;
-
 				height:150px;
-
 				background:white;
-
 			}
-
 			#t1{
-
-				width:150px;
-
-				height:150px;
-
-				margin-left:45%;
-
+				width:30px;
+				height:30px;
+				margin:50px 400px 50px 200px;
+				float:left;
 			}
-
-			#t1 img{
-
-				width:100%;
-
-				height:100%;
-
+			#t1 i{
+				color:black;
+				/*margin:15px 0 0 20px;*/
+				font-size:30px;
 			}
-
 			#t2{
-
-				width:100px;
-
+				width:150px;
+				height:150px;
+				margin:0 150px 0 150px;
+				float:left;
+			}
+			#t2 img{
+				width:100%;
+				height:100%;
+			}
+			#t3{
+				width:550px;
 				height:40px;
-
-				background:black;
-
-				float:right;
-
-				z-index:1000;	
-
+				/*background:pink;*/
+				float:left;
+				margin:50px 30px 50px 120px;
 			}
-
+			#t3 input{
+				width:300px;
+				height:100%;
+				margin-right:70px;
+			}
+			#t3 i{
+				color:black;
+				/*margin:15px 0 0 20px;*/
+				font-size:25px;
+			}
 			#menuarea{
-
 				width:100%;
-
 				height:120px;
-
 				background:#F7F7F7;
-
 				position:sticky;
-
 				top:0;
-
-				z-index:1000;
-
+				/*z-index:1000;*/
 			}
-
 			.m1{
-
 				width:70px;
-
 				height:70px;
-
 				float:left;
-
 				border-radius:100px;
-
 				margin:7px 75px;
-
 				border:1px solid black;
-
 			}
-
 			.m1 img{
-
 				width:100%;
-
 				height:100%;
-
 				border-radius:100px;
-
 			}
-
 			.m1 a{
-
 				color:black;
-
 				text-decoration:none;
-
 			}
-
 			.m1 h4{
-
 				color:black;
-
 				font-weight:lighter;
-
 				font-family:helvetica;
-
 				/*font-style:oblique;*/
-
 				text-transform:uppercase;
-
 				/*letter-spacing:10px*/
-
 				/*word-spacing:50px;*/
-
 				/*line-height:40px;*/
-
 				text-align:center;
-
 				text-valign:middle;
-
 			}
-
 			#slidearea{
-
 				width:100%;
-
 				height:800px;
-
-				background:url('slidearea.jpeg') no-repeat;
-
+				background:url('watch-rolex.gif') no-repeat;
 				background-size:cover;
-
 			}
-
 			#details{
-
 					/*position:absolute;
-
 					bottom:0;*/
-
 					width:2000px;
-
 					height:800px;
-
-					padding-top:350px;
-
+					padding-top:300px;
 					/*padding-left:1600px;
-
 					padding-bottom:200px;*/
-
 					text-align:center;
-
 					text-valign:middle;
-
 					background:rgba(0,0,0,0.6);
-
 					font-weight:bold;
-
-					font-family:helvetica;
-
+					font-family:cursive;
 					letter-spacing:20px;
-
-					font-size:30px;
-
+					font-size:40px;
 					color:white;
-
 			}
-
 			#boxarea{
-
 				width:100%;
-
 				height:900px;
-
 				background:linear-gradient(to bottom, #F7F7F7 0%, #E7DFD7 40%, #F8F6F5 50%, #BA9F91 60%, #F6F4F2 100%);
-
 			}
-
 			#b1{
-
 				width:330px;
-
 				height:450px;
-
 				background:black;
-
 				margin-left:100px;
-
 				margin-top:120px;
-
 				margin-bottom:30px;
-
 				margin-right:5px;
-
 				float:left;
-
 				border-radius:50px;
-
 				/*border:2px solid black;*/
-
 				
-
 			}
-
 			
-
 			.b2{
-
 				width:330px;
-
 				height:450px;
-
 				background:black;
-
 				margin-top:120px;
-
 				margin-left:5px;
-
 				margin-right:5px;
-
 				float:left;
-
 				border-radius:50px;
-
 				/*border:2px solid black;*/
-
 			}
-
 			#b1 img{
-
 				width:100%;
-
 				height:100%;
-
 				border-radius:50px;
-
 				border:2px solid black;
-
 				transition:transform;
-
 				transition-duration:3s;
-
 				transition-delay:0s;
-
 			}
-
 			#b1 img:hover{
-
 				transform:scale(1.1,1.1);
-
 			}
 
 			.b2 img{
-
 				width:100%;
-
 				height:100%;
-
 				border-radius:50px;
-
 				border:2px solid black;
-
 				transition:transform;
-
 				transition-duration:3s;
-
 				transition-delay:1s;
-
 			}
-
 			.b2 img:hover{
-
 				transform:scale(1.1,1.1);
-
 			}
-
 			#b3{
-
 				width:100%;
-
 				height:100px;
-
 				background:;
-
 				padding-top:45px;
-
 				border-bottom:1px solid black;
-
 			}
-
 			#b3 h1{
-
 				color:black;
-
 				font-weight:bolder;
-
 				font-family:helvetica;
-
 				/*font-style:oblique;*/
-
 				text-transform:uppercase;
-
 				letter-spacing:10px;
-
 				/*word-spacing:50px;*/
-
 				line-height:40px;
-
 				text-align:center;
-
 				text-valign:middle;
-
 			}
-
 			#darea{
-
 				width:100%;
-
 				height:1400px;
-
 				background:#F7F7F7;
-
 			}
-
 			#d1{
-
 				width:1080px;
-
 				height:500px;
-
 				margin-top:100px;
-
 				margin-left:40px;
-
 				border-radius:20px;
-
 				border:1px solid black;
-
 				box-shadow:5px 5px 5px 5px black;
-
 			}
-
 			#d1 img{
-
 				width:100%;
-
 				height:100%;
-
 				border-radius:20px;
-
 			}
-
 			.d2{
-
 				width:500px;
-
 				height:450px;
-
 				float:left;
-
 				margin-top:50px;
-
 				margin-left:35px;
-
 				margin-right:45px;
-
 				border-radius:20px;
-
 				border:1px solid black;
-
 				box-shadow:5px 5px 5px 5px black;
-
 			}
-
 			.d2 img{
-
 				width:100%;
-
 				height:100%;
-
 				border-radius:20px;
-
 			}
-
 			#d3{
-
 				width:100%;
-
 				height:80px;
-
 				background:#F7F7F7;
-
 				padding:30px;
-
 				border-bottom:1px solid black;
-
 			}
-
 			#d3 h1{
-
 				color:black;
-
 				font-weight:bolder;
-
 				font-family:helvetica;
-
 				/*font-style:oblique;*/
-
 				text-transform:uppercase;
-
 				letter-spacing:10px;
-
 				/*word-spacing:50px;*/
-
 				line-height:40px;
-
 				text-align:center;
-
 				text-valign:middle;
-
 			}
-
 			#footerarea{
-
 				width:100%;
-
 				height:1000px;
-
 				background:#212121;
-
 			}
-
 			.f1{
-
 				width:300px;
-
 				height:700px;
-
 				float:left;
-
 				margin:120px 50px;
-
 			}
-
 			.f1 ul{
-
 				list-style-type:none;
-
 				margin:0;
-
 				padding:0;
-
 			}
-
 			.f1 a{
-
 				text-decoration:none;
-
 				color:white;
-
 			}
-
 			/*#f2{
-
 				width:100%;
-
 				height:100px;
-
 				background:yellow;
-
 			}*/
-
 			#share{
-
 				width:100%;
-
 				height:400px;
-
 				background:white;
-
-				text-decoration:underline;
-
+				/*text-decoration:underline;*/
 			}
-
 			#sh{
-
 				width:100%;
-
 				height:100px;
-
 				background:white;
-
+				border-bottom:1px solid black;
 			}
-
 			#sh h3{
-
 				color:black;
-
 				font-weight:bolder;
-
 				font-family:helvetica;
-
 				font-size:25px;
-
 				text-transform:uppercase;
-
 				letter-spacing:5px;
-
 				text-align:center;
-
 				padding:30px 0;
-
 				/*text-valign:middle;*/
-
 			}
-
 			#sh1{
-
 				width:50px;
-
 				height:50px;
-
 				background:#F7F7F7;
-
 				float:left;
-
 				margin-top:100px;
-
 				margin-left:200px;
-
 				border-radius:100px;
-
 			}
-
 			#sh1 i{
-
 				color:green;
-
 				margin:15px 0 0 20px;
-
 				font-size:20px;
-
 			}
-
 			.sh2{
-
 				width:50px;
-
 				height:50px;
-
 				background:#F7F7F7;
-
 				float:left;
-
 				margin-top:100px;
-
 				margin-left:100px;
-
 				border-radius:100px;
-
 			}
-
 			.sh2 i{
-
 				color:green;
-
 				margin:15px 0 0 18px;
-
 				font-size:20px;
-
 			}
-
 		</style>
-
 	</head>
-
 	<body>
-
+		<div id="rarea">
+		</div>
 		<div id="mainarea">
-
 			<div id="toparea">
-
 				<div id="t1">
-
-					<img src="logo.png" align="center">
-
+					<i class="fa fa-navicon"></i>
 				</div>
-
 				<div id="t2">
-
+					<img src="logo.png">
 				</div>
-
+				<div id="t3">
+					<i class="fa fa-search"></i> <!--<h3> Search</h3>--><input type="text" placeholder="Search"/>
+					<i class="fa fa-heart"></i> <!--<h3> YOUR SELECTION</h3>-->
+				</div>
 			</div>
-
 			<div id="menuarea">
-
 				<div class="contentarea">
-
 					<div class="m1">
-
-						<a href="#">
-
+						<a href="#men.html">
 							<img src="men.jfif"/>
-
 							<h4>Men</h4>
-
 						</a>
-
 					</div>
-
 					<div class="m1">
-
-						<a href="#">
-
+						<a href="#women.html">
 							<img src="women.jfif"/>
-
 							<h4>Women</h4>
-
 						</a>
-
 					</div>
-
 					<div class="m1">
-
-						<a href="#">
-
+						<a href="#gold.html">
 							<img src="gold.jfif"/>
-
 							<h4>Gold</h4>
-
 						</a>
-
 					</div>
-
 					<div class="m1">
-
-						<a href="#">
-
+						<a href="#silver.html">
 							<img src="silver.jfif"/>
-
 							<h4>Silver</h4>
-
 						</a>
-
 					</div>
-
 					<div class="m1">
-
-						<a href="#">
-
+						<a href="#black.html">
 							<img src="black.jfif"/>
-
 							<h4>Business</h4>
-
 						</a>
-
 					</div>
-
 				</div>
-
 			</div>
-
 			<div id="slidearea">
-
 				<div id="details">
-
 				<h1>WORLD OF ROLEX</h1>
-
 				</div>
-
 			</div>
-
 			<div id="boxarea">
-
 				<div id="b3">
-
 					<h1>OUR COLLECTION</h1>
-
 				</div>
-
 				<div id="b1">
-
 					<img src="watch1.webp"/>
-
 				</div>
-
 				<div class="b2">
-
 					<img src="watch2.webp"/>
-
 				</div>
-
 				<div class="b2">
-
 					<img src="watch3.webp"/>
-
 				</div>
-
 				<div class="b2">
-
 					<img src="watch4.webp"/>
-
 				</div>
-
 				<div class="b2">
-
 					<img src="watch5.webp"/>
-
 				</div>
 
 			</div>
-
 			<div id="darea">
-
 				<div id="d3">
-
 					<h1 align="center">DISCOVERING ROLEX</h1>
-
 				</div>
-
 				<div class="contentarea">
-
 				<div id="d1">
-
 					<img src="discover1.jpg"/>
-
 				</div>
-
 				<div class="d2">
-
 					<img src="discover2.webp"/>
-
 				</div>
-
 				<div class="d2">
-
 					<img src="discover3.webp"/>
-
 				</div>
-
 				</div>
-
 			</div>
-
 			<div id="share">
-
-				<div class="contentarea">
-
 					<div id="sh">
-
 						<h3>SHARE THIS PAGE</h3>
-
 					</div>
-
+					<div class="contentarea">
 					<div id="sh1">
-
 						<i class="fa fa-facebook"></i>
-
 					</div>
-
 					<div class="sh2">
-
 						<i class="fa fa-instagram"></i>
-
 					</div>
-
 					<div class="sh2">
-
 						<i class="fa fa-twitter"></i>
-
 					</div>
-
 					<div class="sh2">
-
 						<i class="fa fa-whatsapp"></i>
-
 					</div>
-
 					<div class="sh2">
-
 						<i class="fa fa-pinterest"></i>
-
 					</div>
-
 					<div class="sh2">
-
 						<i class="fa fa-whatsapp"></i>
-
 					</div>
-
 				</div>
-
 			</div>
-
 			<div id="footerarea">
-
 				<div class="contentarea">
-
 					<div class="f1">
-
 						<h4><font color="white">ROLEX WATCHES</font>
-
 </h4>
-
-						<hr width="200px" color="gray"/>
-
+						<hr width="200px" color="gray" align="left"/>
 							<ul>
-
 								<li><a href="#">Rolex watches</a></li>
-
 								<li><a href="#">New watches 2021</a></li>
-
 								<li><a href="#">Configure your watch</a></li>
-
 								<li><a href="#">Watch finder</a></li>	
-
 								<li><a href="#">Men's watches</a></li>
-
 								<li><a href="#">Women's watches</a></li>
-
 								<li><a href="#">History & Watchmaking</a></li>
-
 								<li><a href="#">Every Rolex Tells a Story</a></li>
-
 							</ul></br>
-
 						<h4><font color="white">WORLD OF ROLEX</font></h4>
-
 						<hr width="200px" color="gray"/>
-
 							<ul>
-
 								<li><a href="#">Sports, Arts and Exploration</li></br>
-
 							</ul>
-
 						<h4><font color="white">SERVICES</font></h4>
-
 						<hr width="200px" color="gray"/>
-
 							<ul>
-
 								<li><a href="#">Buying a Rolex</a></li>
-
 								<li><a href="#">Find a retailer</a></li>
-
 								<li><a href="#">Watch care & service</a></li>
-
 								<li><a href="#">Your selection</a></li>	
-
 								<li><a href="#">Frequently Asked Questions</a></li>
-
 								<li><a href="#"><i class="fa fa-sign-in"></i>  Newsroom</a></li>
-
 							</ul>
-
 					</div>
-
 					<div class="f1">
-
 						<h4><font color="white">THE COLLECTION</font></h4>
-
 						<hr width="200px" color="gray"/>
-
 								
-
 							<ul>
-
 								<li><a href="#">Air-King</a></li>
-
 								<li><a href="#">Cosmograph Daytona</a></li>
-
 								<li><a href="#">Datejust</a></li>	
-
 								<li><a href="#">Lady-Datejust</a></li>
-
 								<li><a href="#">Day-Date</a></li>
-
 								<li><a href="#">Explorer</a></li>
-
 								<li><a href="#">GMT-Master II</a></li>
-
 								<li><a href="#">Milgauss</a></li>
-
 								<li><a href="#">Oyster Perpetual</a></li>
-
 								<li><a href="#">Pearlmaster</a></li>
-
 								<li><a href="#">Sky-Dweller</a></li>
-
 								<li><a href="#">Submariner</a></li>
-
 								<li><a href="#">Yacht-Master</a></li>
-
 								<li><a href="#">Cellini</a></li>
-
 							</ul>
 
 					</div>
-
 					<div class="f1">
-
 						<h4><font color="white">OFFICIAL CHANNELS</font></h4>
-
 						<hr width="200px" color="gray"/>
-
 							<ul>
 
 								<li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
-
 								<li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>	
-
 								<li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
-
 								<li><a href="#"><i class="fa fa-youtube-play"></i> Youtube</a></li>
-
 								<li><a href="#"><i class="fa fa-pinterest-square"></i> Pinterest</a></li>
-
 								<li><a href="#"><i class="fa fa-linkedin"></i> LinkedIn</li>
-
 								<li><a href="#"><i class="fa fa-toggle-right"></i> Youku</a></li>
-
 								<li><a href="#"><i class="fa fa-wechat"></i> WeChat</a></li>
-
 								<li><a href="#"><i class="fa fa-weibo"></i> Weibo</a></li>
-
 							</ul>
-
 						<h4><font color="white">LEGAL NOTICES</font></h4>
-
 						<hr width="200px" color="gray"/>
-
 							<ul>
-
 								<li><a href="#">Terms of Use</a></li>
-
 								<li><a href="#">Privacy Notice</a></li>
-
 								<li><a href="#">Cookies</a></li>
-
 							</ul>
-
 						<h4><font color="white">MEDIA</font></h4>
-
 						<hr width="200px" color="gray"/>
-
 							<ul>
-
 								<li><a href="#">Wallpapers</a></li>
-
 								<li><a href="#">Brochures</a></li>
-
 								<li><a href="#">User guides</a></li>
-
 							</ul>
-
 					</div>
-
 				</div>
-
 			</div>
-
 		</div>
-
 	</body>
-
 </html>
